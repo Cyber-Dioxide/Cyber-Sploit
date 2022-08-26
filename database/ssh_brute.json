@@ -1,0 +1,9 @@
+{ "Module" : "ssh_brute.py",
+  "Author" : "Saad Khan",
+  "Github" : "Cyber-Dioxide",
+  "Instagram" : "@cyber_dioxide",
+  "Description" : "This module is used to perform bruteforce attack on a ssh",
+   "Parameters" : ["username" , "rhost" , "wordlist" , "port"],
+  "Note" : ["Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+}

@@ -1,0 +1,11 @@
+{
+  "Module" : "ip_osint.py",
+  "Author" : "Saad Khan",
+  "Github": "Cyber-Dioxide",
+  "Instagram": "@coding_memz",
+  "Description" : "This module will gather information of a given ip address",
+  "Parameters" : ["ip"],
+  "Note" : ["Run this tool as root to avoid errors." , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}

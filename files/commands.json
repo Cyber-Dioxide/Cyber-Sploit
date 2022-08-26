@@ -1,0 +1,8 @@
+{ "set" :  "Parameters",
+  "show" : ["help" , "options" , "info"],
+  "use" : ["module" , "payload" , "exploit"],
+  "buffsize" : 8,
+  "commands": true,
+  "shell" : true}
+
+

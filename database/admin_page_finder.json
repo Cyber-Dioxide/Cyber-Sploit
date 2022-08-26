@@ -1,0 +1,7 @@
+{ "Module" : "admin_page_finder.py",
+  "Author" : "c0c41n-1nj3ct0r ",
+  "Description" : "This module is used to find the admin panel of a given website, it is more advanced.",
+   "Parameters" : ["url"],
+  "Note" : ["Set url without http" , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+}

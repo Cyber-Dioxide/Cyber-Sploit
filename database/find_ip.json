@@ -1,0 +1,10 @@
+{
+  "Module" : "find_ip.py",
+  "Author" : "Saad Khan",
+  "Github": "Cyber-Dioxide",
+  "Instagram": "@coding_memz",
+  "Description" : "This module is used to get the ip address of given url",
+  "Note" : ["Run this tool as root to avoid errors." , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}

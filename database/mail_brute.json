@@ -1,0 +1,11 @@
+{
+  "Module" : "mail_brute.py",
+  "Author" : "Saad Khan",
+  "Github": "Cyber-Dioxide",
+  "Instagram": "@coding_memz",
+  "Description" : "This module is to use brute emil accounts",
+  "Parameters" : ["port" , "smtp" , "emails" , "wordlist"],
+  "Note" : ["Run this tool as root to avoid errors." , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}

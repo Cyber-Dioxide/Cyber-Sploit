@@ -1,0 +1,14 @@
+{
+  "url" : "Set webpage page URL  ",
+  "lhost" : "Set the ip address of attacker machine",
+  "lport" : "Set port to listen on",
+  "wordlist" : "Set path of the wordlist",
+  "smtp" : "Set the smtp of mail service (eg:smtp.gmail.com)",
+  "port" : "Set the smtp port of mail service (eg:587 for gmail)",
+  "emails" :"Set path of the file containing emails",
+  "username" : "Set a username [eg: admin]",
+  "ip" : "Set the ip address of victim",
+  "email" : "Your email id example@gmail.com",
+  "password" : "Password of email id",
+  "rhost" : "IP address of target"
+}

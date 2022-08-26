@@ -1,0 +1,11 @@
+{
+  "Module" : "handle-backdoor.py",
+  "Author" : "Saad Khan",
+  "Github": "Cyber-Dioxide",
+  "Instagram": "@coding_memz",
+  "Descriptions" : "This file is used to manage the backdoor that you've executed on victim's machine."
+  "Parameters" : ["lhost" , "lport"],
+  "Note" : ["Set lhost and lport according to the backdoor","Set same lhost and lport, the one you have used for backdoor" , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}

@@ -1,0 +1,8 @@
+{ "Module" : "admin_finder.py",
+  "Author" : "Andy Linux",
+  "Description" : "This module is used to find the admin panel of a given website",
+   "Parameters" : ["url"],
+  "Note" : ["Set url without http" , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123",
+  "Facebook" : "http://facebook.com/wcoder.official"
+}

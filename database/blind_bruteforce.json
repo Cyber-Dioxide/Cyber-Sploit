@@ -1,0 +1,10 @@
+{
+  "Module" : "blind_bruteforce.py",
+  "Author" : "Tanvir Hossain Antu",
+  "Github": "https://github.com/Antu7",
+  "Description" : "This module is used to perform bruteforce attack on a given url",
+  "Parameters" : ["wordlist" , "username" , "url"],
+  "Note" : ["Run this tool as root to avoid errors." , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}
