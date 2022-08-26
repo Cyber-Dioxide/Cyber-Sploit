@@ -40,8 +40,8 @@ Better to root the terminal in order to avoid errors.
 * Root your terinal
 ![Screenshot_20220824_152717](https://user-images.githubusercontent.com/93708296/186955856-6d221fb1-74ae-4288-87a8-7fab61568f4b.png)
 
-# Screenshots
-![Screenshot_20220824_152555](https://user-images.githubusercontent.com/93708296/186956018-300640b5-8d0c-43f4-9773-69e7bffd9e57.png)
+# STAR
+Give a star if you liked it
 
 # Installation
 > bash install.sh
