@@ -1,6 +1,9 @@
 # Cyber-Sploit
 A framework like a metasploit containg a variety of modules for pentesting or ethical hacking. This repo willl be updated and new modules will be added time to time. This framwork is still under development phase. Those who are intrested for adding new modules can contribute. Mostly modules are written in Python, others may be aded with time (Ruby,  GoLang).
-![Screenshot_20220824_152316](https://user-images.githubusercontent.com/93708296/186956092-c5ecf8e6-e084-4f3f-99c0-0b36275a7524.png)
+![Screenshot_20220826_224824](https://user-images.githubusercontent.com/93708296/186963364-54cee1a8-1e40-47e8-929c-8941e597a068.png)
+
+![Screenshot_20220826_224625](https://user-images.githubusercontent.com/93708296/186963396-e8b1c9e6-5da9-4158-8c45-dcfc75904be6.png)
+
 
 
 # Root
@@ -29,6 +32,7 @@ Better to root the terminal in order to avoid errors.
 >- [ TIME ]/ banner                                                    =>                      #Displays a random banner
 >- [ TIME ]/ exit #You've guessed it!
 ![Screenshot_20220824_152640](https://user-images.githubusercontent.com/93708296/186955768-4b47f7d2-5a7b-4157-a108-a9791e365b61.png)
+![Screenshot_20220826_224853](https://user-images.githubusercontent.com/93708296/186963463-2f5721b9-974c-4364-bb85-fcf8f0f4d126.png)
 
 
 * More options and modules will be added
