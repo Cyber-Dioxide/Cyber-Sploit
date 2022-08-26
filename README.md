@@ -67,6 +67,8 @@ For any help/support, iam mostly active on Instagram @cyber_dioxide , @coding_me
 # Screenshots++
 ![Screenshot_20220826_221405](https://user-images.githubusercontent.com/93708296/186958570-e6ed55c1-f860-4d30-8469-249e677c9ddc.png)
 
+![Screenshot_20220826_224701](https://user-images.githubusercontent.com/93708296/186965749-fa426716-f822-4beb-abe1-d2b8d94daa14.png)
+
 
 
 
