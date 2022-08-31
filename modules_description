@@ -1,0 +1,23 @@
++--------------------------------------------------------------------------------------------+
+|       Module           |           Description                                             |
+|--------------------------------------------------------------------------------------------|
+|   - backdoor.py        | Used to get a reverse shell of victim computer (Windows)          |
+|   - handle-backdoor.py | Used to control the backdoor that you've executed on victims      |
+|                          machine                                                           |
+|   - wifi_brute.py      | Used to perform bruteforce attack on a wifi                       |
+|   - mail_brute.py      | Used to perform bruteforce attack on email account                |
+|   - ip_osint.py        | Used to get information of an ip address                          |
+|   - blind_bruteforce.py| Used to perform bruteforce attack on a given login URL            |
+|   - port_scanner.py    | Scan for open ports like nmap                                     |
+|   - network_nerd.py    | Gathers network information of target and send it to the attacker |
+|                          gmail                                                             |
+|   - wordlist.py        | Generated a wordlist according to given parameters                |
+|   - ftp_brute.py       | Used to brute force ftp port                                      |
+|   - admin_finder.py    | Used to find admin panel of a given url                           |
+|   - find_ip            | Finds th ip address of a given (eg: google.com)                   |
+|  - admin_page_finder.py| More advanced admin page finder                                   |
+|   - ssh_brute.py       | Used to perform bruteforce attack on ssh                          |
+|   - zip_rar_brute      | Used to perform bruteforce attack on a password protected zip/rar |
+|--------------------------------------------------------------------------------------------|
+|                    [+] More modules will be added time to time                             |
++--------------------------------------------------------------------------------------------+
