@@ -18,4 +18,5 @@ chardet~=5.0.0
 ipython~=8.4.0
 dnspython~=2.2.1
 pysocks
-
+zipfile
+rarfile
