@@ -1,0 +1,11 @@
+{
+  "Module" : "zip_rar_brute.py",
+  "Author" : "Saad Khan",
+  "Github": "Cyber-Dioxide",
+  "Instagram": "@coding_memz",
+  "Description" : "This module is to use brute password protected rar or zip",
+  "Parameters" : ["file" , "wordlist"],
+  "Note" : ["Set file path carefully","Run this tool as root to avoid errors." , "Set all parameters carefully"],
+  "Paypal" : "@maazwaheed123"
+
+}
