@@ -10,7 +10,7 @@ A framework like a metasploit containg a variety of modules for pentesting or et
 Better to root the terminal in order to avoid errors.
 
 # Usage
->* git clone https://github.com/Cyber-Dioxide
+>* git clone https://github.com/Cyber-Dioxide/Cyber-Sploit
 >* change directory
 >* chmod +x *
 >* bash install.sh
