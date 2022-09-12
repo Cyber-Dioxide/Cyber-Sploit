@@ -12,7 +12,7 @@ Y = text_color("yellow")
 R = text_color('red')
 G = text_color("green")
 
-dir = "/home/" + os.getlogin() + "Cyber-Sploit-Output"
+dir = "/home/" + os.getlogin() + "/Cyber-Sploit-Output"
 
 
 def cmd(command):
