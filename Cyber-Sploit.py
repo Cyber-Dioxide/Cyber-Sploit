@@ -2,7 +2,7 @@ import os
 import subprocess
 from files.rootCheck import rootCHEK
 from files.loading import animate
-from files.banner import dt ,  render
+from files.banner import dt, render
 from files.colors import text_color
 import json
 
@@ -17,6 +17,7 @@ dir = "/home/" + os.getlogin() + "/Cyber-Sploit-Output"
 
 def cmd(command):
     os.system(command)
+
 
 print(render())
 animate()
@@ -106,9 +107,9 @@ def database_search(module):
     else:
         msg(f"""Select A module to see info.
         +---------------------------------+
-        | {Y}</>   {W} Cyber-Sploit       |
-        | {Y}</>  {W}Developer: Saad-Khan |
-        | {Y}</>  {W}Author: Cyber-Dioxide|
+        |        {Y}</>  {W} Cyber-Sploit       |
+        |       {Y}</>  {W}Developer: Saad-Khan |
+        |       {Y}</>  {W}Author: Cyber-Dioxide|
         +---------------------------------+
         """, logo="/\\")
 
@@ -149,10 +150,19 @@ def shell():
         command = list(command.split(" "))
 
         if command[0] == "set":
-            try:
-                set(command)
-            except:
-                pass
+            with open("parameters/parameters.json" ,"r") as f:
+                f = f.read()
+            params = json.loads(f)
+            params = params.items()
+            for k, v in params:
+                if command[1] == k:
+                    try:
+                        set(command)
+                    except:
+                        pass
+
+            # else:
+            #     msg("Incorrect parameter" , logo="!")
 
         elif command[0] == "use":
             # command = command.remove("use")
@@ -168,8 +178,10 @@ def shell():
             cmd(f"python3 RUN.py {module}")
 
         elif "generate" in command:
-            os.mkdir(dir)
-            cmd(f"cp generated/{module} {dir}/")
+            with open(module, "r") as gen:
+                gen = gen.read()
+            with open(dir + "/" + module, "a+") as rate:
+                rate.write(gen)
 
         elif "format" in command:
             formate = command[1]
