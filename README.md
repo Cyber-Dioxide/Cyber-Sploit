@@ -4,6 +4,10 @@ A framework like a metasploit containg a variety of modules for pentesting or et
 
 ![Screenshot_20220826_224625](https://user-images.githubusercontent.com/93708296/186963396-e8b1c9e6-5da9-4158-8c45-dcfc75904be6.png)
 
+# Service
+* To get your own custom hacking tool, dm me on instagram @coding_memz
+* Get the 14M passwords list containing worlds mostly used passwords, dm me on instagram @coding_memz.
+* Get the worlds best hacking course, dm me on instagram @coding_memz
 
 
 # Root
