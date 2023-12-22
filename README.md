@@ -4,7 +4,8 @@ A framework like a metasploit containg a variety of modules for pentesting or et
 
 ![Screenshot_20220826_224625](https://user-images.githubusercontent.com/93708296/186963396-e8b1c9e6-5da9-4158-8c45-dcfc75904be6.png)
 
-
+# Important Note
+With old version, and python update Marshal encoded scripts started producing error. That is now removed, therfore the code for "HELP" coomand is not working at a moment, which will be fixed in upcomming updates. Therefore you are requested to learn the commands from the screenshot shared below, there you can see all options of help command. Thank you.
 
 # Root
 Better to root the terminal in order to avoid errors.
@@ -58,11 +59,13 @@ If someone wants to contribute, warmly welcommed.
 # More
 The reason for adding timestamp is that it took alot of time developed. I had to switch my Laptop to Linux as a primary OS because VB was no more responding (-_-).
 
-# Paypal
-@maazwaheed123
+# Cyber World Collab
+Your little donations help in creating better Cyber World via experiments. You are asked to collab with us.
+* BTC address: bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8
 
 # Help/Support
 For any help/support, iam mostly active on Instagram @cyber_dioxide , @coding_memz
+* Check Our ![Blog](https://cyberidoxide.com/)
 
 # Screenshots++
 ![Screenshot_20220826_221405](https://user-images.githubusercontent.com/93708296/186958570-e6ed55c1-f860-4d30-8469-249e677c9ddc.png)
