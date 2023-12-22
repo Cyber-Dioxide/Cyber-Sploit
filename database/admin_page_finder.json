@@ -3,5 +3,5 @@
   "Description" : "This module is used to find the admin panel of a given website, it is more advanced.",
    "Parameters" : ["url"],
   "Note" : ["Set url without http" , "Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

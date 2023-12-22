@@ -6,6 +6,5 @@
   "Description" : "This module is used to preform bruteforce attack on wifi",
   "Parameters" : ["wordlist"],
   "Note" : ["Run this tool as root to avoid errors." , "Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
-
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

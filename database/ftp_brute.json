@@ -3,5 +3,5 @@
   "Description" : "This module is used to perform bruteforce attack on a ftp",
    "Parameters" : ["username" , "rhost" , "wordlist"],
   "Note" : ["Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

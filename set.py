@@ -4,6 +4,7 @@ import sys
 config = "modules/.files/config"
 
 def analyze():
+    print(sys.argv)
     if len(sys.argv) == 4:
         variable = sys.argv[2]
         value = sys.argv[3]

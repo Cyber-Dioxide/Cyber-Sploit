@@ -6,6 +6,5 @@
   "Descriptions" : "This file is used to manage the backdoor that you've executed on victim's machine.",
   "Parameters" : ["lhost" , "lport"],
   "Note" : ["Set lhost and lport according to the backdoor","Set same lhost and lport, the one you have used for backdoor" , "Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
-
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

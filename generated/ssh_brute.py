@@ -1,8 +1,9 @@
-port="22"
-rhost="192.158.236.180"
-username="admin"
-wordlist="/home/cyber/rockyou.txt"
-#!/usr/bin/env python
+username = "admin"
+port = "80"
+port = "22"
+rhost = "192.158.236.180"
+wordlist = "d:/programming/wordlist.txt"
+# !/usr/bin/env python
 
 
 from pwn import *
@@ -19,9 +20,9 @@ p = port
 
 print("User file:", u_file, "| Password file:", p_file, "\n")
 
-passwords = open(p_file,"r", errors="ignore")
+passwords = open(p_file, "r", errors="ignore")
 for l in passwords:
-    p = l.strip()
+    pop = l.strip()
     pass_arr.append(p)
 passwords.close()
 i = 1

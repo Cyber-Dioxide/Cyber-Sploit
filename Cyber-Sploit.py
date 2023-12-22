@@ -1,7 +1,10 @@
 import os
+import platform
 import subprocess
+import time
+
 from files.rootCheck import rootCHEK
-from files.loading import animate
+from files.loading import Loader
 from files.banner import dt, render
 from files.colors import text_color
 import json
@@ -12,7 +15,7 @@ Y = text_color("yellow")
 R = text_color('red')
 G = text_color("green")
 
-dir = "/home/" + os.getlogin() + "/Cyber-Sploit-Output"
+dir = "/home/" + os.getlogin() + "/CS-Output" if 'Windows' not in platform.platform() else "./CS-Output"
 
 
 def cmd(command):
@@ -20,18 +23,30 @@ def cmd(command):
 
 
 print(render())
-animate()
+l = Loader(desc='Loading...', end='')
+l.start()
+time.sleep(3)
 # rootCHEK()
+l.stop()
+
 
 if os.path.isdir(dir):
     pass
 else:
-    os.mkdir(dir)
+    try:
+        os.mkdir(dir)
+    except:
+        print("[!] Unable to create Output Folder")
+        pass
 
 if os.path.exists("modules/.files/config"):
     os.remove("modules/.files/config")
+    os.rmdir("modules/.files")
 else:
-    pass
+    try:
+        os.mkdir("modules/.files")
+    except:
+        pass
 
 
 def msg(mesg, logo="!"):
@@ -39,11 +54,9 @@ def msg(mesg, logo="!"):
 
 
 def set(data):
-    analyze = ""
-    for d in data:
-        analyze += d
-        analyze += " "
-    cmd(f"python3 set.py {analyze}")
+    analyze = " ".join(data)
+    # print(analyze)
+    cmd(f"python3 set.py {analyze}" if 'Windows' not in platform.platform() else f"py -3 set.py {analyze}")
 
 
 def show_modules():
@@ -108,7 +121,7 @@ def database_search(module):
         msg(f"""Select A module to see info.
         +---------------------------------+
         |        {Y}</>  {W} Cyber-Sploit       |
-        |       {Y}</>  {W}Developer: Saad-Khan |
+        |       {Y}</>  {W}Developer: Saad Khan |
         |       {Y}</>  {W}Author: Cyber-Dioxide|
         +---------------------------------+
         """, logo="/\\")
@@ -150,7 +163,7 @@ def shell():
         command = list(command.split(" "))
 
         if command[0] == "set":
-            with open("parameters/parameters.json" ,"r") as f:
+            with open("parameters/parameters.json", "r") as f:
                 f = f.read()
             params = json.loads(f)
             params = params.items()
@@ -160,7 +173,6 @@ def shell():
                         set(command)
                     except:
                         pass
-
             # else:
             #     msg("Incorrect parameter" , logo="!")
 
@@ -175,7 +187,7 @@ def shell():
                 module = ""
 
         elif "run" in command:
-            cmd(f"python3 RUN.py {module}")
+            cmd(f"py -3 RUN.py {module}" if 'Windows' in platform.platform() else f"python3 RUN.py {module}")
 
         elif "generate" in command:
             with open(module, "r") as gen:

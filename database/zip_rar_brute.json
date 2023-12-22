@@ -6,6 +6,5 @@
   "Description" : "This module is to use brute password protected rar or zip",
   "Parameters" : ["file" , "wordlist"],
   "Note" : ["Set file path carefully","Run this tool as root to avoid errors." , "Set all parameters carefully"],
-  "Paypal" : "@maazwaheed123"
-
+  "BTC" : "bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8"
 }

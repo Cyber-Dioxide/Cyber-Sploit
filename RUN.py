@@ -1,4 +1,5 @@
 import os
+import platform
 import sys
 
 config_file = "modules/.files/config"
@@ -32,9 +33,9 @@ def read_config(module):
 def run():
     try:
         read_config(module_path)
-        os.system(f"python3 generated/{modulez}")
+        os.system(f"python3 generated/{modulez}" if 'Windows' not in platform.platform() else f"py -3 generated/{modulez}")
     except:
-        os.system(f"python3 modules/{modulez}")
+        os.system(f"python3 modules/{modulez}"if 'Windows' not in platform.platform() else f"py -3 generated/{modulez}")
 
     if os.path.exists("modules/.files/config"):
         os.remove("modules/.files/config")
