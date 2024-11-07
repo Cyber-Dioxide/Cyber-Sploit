@@ -64,8 +64,8 @@ Your little donations help in creating better Cyber World via experiments. You a
 * BTC address: bc1qsmuuhkph59qwv4q87p2w4lzudysym72vjqjfa8
 
 # Help/Support
-For any help/support, iam mostly active on Instagram  @coding_memz, [Telegram](https://www.cyberdioxide.com/p/contact.html)
-* Check Our ![Blog](https://cyberidoxide.com/)
+For any help/support, iam mostly active on Instagram  @coding_memz, [Telegram](https://www.cyox2.com/p/contact.html)
+* Check Our ![Blog](https://www.cyox2.com/)
 
 # Screenshots++
 ![Screenshot_20220826_221405](https://user-images.githubusercontent.com/93708296/186958570-e6ed55c1-f860-4d30-8469-249e677c9ddc.png)
