@@ -41,8 +41,21 @@ Better to root the terminal in order to avoid errors.
 * Root your terinal
 ![Screenshot_20220824_152717](https://user-images.githubusercontent.com/93708296/186955856-6d221fb1-74ae-4288-87a8-7fab61568f4b.png)
 
-# STAR
-Give a star if you liked it
+# 🙌 Donate to Support Development
+
+If you find this tool useful and want to support future updates, you can donate in crypto:
+
+    BTC: 364wCdw46JBGwtk674N4Cj87ErWNVTNvBc
+
+    ETH: 0x4d2c6d55a7ab2874ef5fd172d78da6e553ab9126
+
+    USDT (TRC20): TSgLpf9AawGLnHYRFhp5XqNgLVk7Y7kZBg
+
+    SOL: 3VGJAH5n8NJFKFoC4GPZWay8QJrL5upd33i7WHMpcGpv
+
+    LTC: MASRzRJPy9UxuagdXqzcY9N89NvPMUreNj
+
+Your support helps keep the project alive and free for everyone. Thank you!
 
 # Installation
 > bash install.sh
